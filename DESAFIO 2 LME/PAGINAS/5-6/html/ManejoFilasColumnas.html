@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/manejofilascolumnas.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Manejo de filas y columnas</title>
+</head>
+
+<body>
+    <!--A PARTIR DE ACA ESTA LA PARTE 6-->
+    <div class="container">
+        <h1>Manejo de filas y columnas</h1>
+        <br>
+        <p>En este caso vamos a hablar sobre cómo gestionar filas y columnas, pues bien, en el punto anterior se hablo de los tipos y se hizo mención sobre filas y columnas y es que, en terminos generales no es muy complicado el uso de estas dentro de las rejillas o cuadrículas.</p>
+        <p>Para las filas solamente es necesario identificar dentro del código que por supuesto debe de esta vinculado a bootstrap, el div con clase "row".</p>
+        <br>
+        <p>Para las columnas es también de la misma forma, implementando div con la clase "col", dentro del nombre de esta clase definiremos el tipo o nivel de la rejilla o cuadrícula, es decir, si queremos una <b>lg</b>, atendiendo por supuesto a el tipo de pantalla que se quiera cubrir se escribirá de la siguiente manera: </p>
+        <p><b>< div class="row" ></b></p>
+        <p><b>< div class="col-lg-2" > 2 espacios < /div ></b></p>
+        <p><b>< /div ></b></p>
+
+        <div class="row">
+            <div class="col-lg-2">2 espacios</div>
+        </div>
+        <br>
+        <p>Aplicandola dentro del código y dandole color quedaría de la siguiente forma si se aplican 2 filas y 3 columnas por ejemplo, y recordemos que tiene que ir dentro de div con clase row (que serian las filas).</p>
+   
+        <div class="row">
+        <div class="col-lg-2">2 espacios</div>
+        <div class="col-lg-2">2 espacios</div>
+        <div class="col-lg-2">2 espacios</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">2 espacios</div>
+            <div class="col-lg-2">2 espacios</div>
+            <div class="col-lg-2">2 espacios</div>
+        </div>
+        <br>
+        <p>Recordemos que todo depende del tipo de rejilla que establezcamos, pues si ponemos de tipo md con las mismas filas y columnas, aunque se vea igual, al modificar nuevamente el tamaño de la pantalla, es decir responsive se veran las diferencias.</p>
+        <div class="row">
+            <div class="col-md-2">2 espacios</div>
+            <div class="col-md-2">2 espacios</div>
+            <div class="col-md-2">2 espacios</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">2 espacios</div>
+                <div class="col-md-2">2 espacios</div>
+                <div class="col-md-2">2 espacios</div>
+            </div>
+            <br>
+
+
+
+    </div>
+</body>
+
+</html>

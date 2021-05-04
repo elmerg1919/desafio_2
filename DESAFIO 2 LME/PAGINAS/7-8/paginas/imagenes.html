@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Imágenes responsivas</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<nav id="menu">
+		<ul>
+			<li><a href="/index.html">Inicio</a></li>
+		</ul>
+	</nav>
+
+	<div id="pp1">
+		<h2>IMAGENES RESPONSIVAS</h2>
+	</div>
+
+	<!---imagen responsiva--->
+	<div align="center">
+		<img src="../imagenes/bootstrap.jpg" class="img-fluid">
+	</div>
+	<br>
+
+	<!---section--->
+	<section>
+		<div class="parrafo1">
+			<div class="d1">
+				<p><h1>Una imagen responsiva, es cuando deseamos que NO se nos modifique el tamaño de la imagen cuando cambiemos de dispositivo o minimicemos la ventana de nuestro ordenador. La imagen anterior es un ejemplo de como implementar una imagen responsiva mediante css, para poder aplicarlo, necesitamos las librerías de <a href="https://getbootstrap.com/docs/4.6/getting-started/download/">Bootstrap 4.6.</a>Cuando empecemos a editar el código agregaremos las siguientes líneas de código:</h1></p>
+				<br><hr>
+
+				<p align="center"><h1>div align="center"</h1></p><br>
+				<p align="center"><h1>img src="../imagenes/bootstrap.jpg" class="img-fluid"</h1></p><br>
+				<p align="center"><h1>/div</h1></p><br>
+
+				<p><h1>El div que utilizamos, es para poder centrar la imagen, luego llamamos la imagen y agregamos una clase denominada "img-fluid" esta clase, ya esta dentro de las librerías que descargamos previamente.</h1></p><br>
+			</div>
+		</div>
+	</section><br>
+	<div id="thumb"><h1>THUMBNAILS</h1></div>
+
+	<!---Thumbnail--->
+<!---Section2--->
+<section>
+		<div class="parrafo1">
+			<div class="d2">
+				<img src="../imagenes/b.jpg" class="img-thumbnail float-left" width="300" height="300"><br>
+				<p><h1>Una imagen thumbnail, es para agregar a la imagen un borde y para poder presentar imagenes miniaturas en las páginas web, para poder editarla de esta manera necesitaremos el código css de <a href="https://getbootstrap.com/docs/4.6/getting-started/download/">Bootstrap 4.6.</a> Luego editaremos el código de la manera siguiente:</h1></p>
+				<br>
+
+				<p align="center"><h1>img src="../imagenes/boot.jpg" class="img-thumbnail</h1></p><br>
+
+				<p><h1>Mandamos a llamar la imagen de nuestra carpeta y colocamos la clase "img-thumbnail", por defecto la imagen aparecera a la izquierda pero modificando la clase, podremos editarla de posición.</h1></p><br>
+			</div>
+		</div>
+	</section><br>
+
+	<section>
+		<div class="parrafo2">
+			<div class="d3">
+				<p><h1><img src="../imagenes/b.jpg" class="img-thumbnail float-right" width="300" height="300"><br>En este siguiente ejemplo se muestra una imagen thumbnail de el lado derecho, el código que utilizamos para modificarla, será el siguiente:</h1></p>
+				<br>
+
+				<p align="center"><h1>img src="../imagenes/boot.jpg" class="img-thumbnail float-right</h1></p><br>
+
+				<p><h1>En la clase sólo agregamos "float-right" esto hará que cambie de posición la imagen, del mismo modo para centrarla utilizamos en la clase el código "mx-auto d-block".</h1></p><br>
+			</div>
+		</div>
+	</section><br>
+
+
+		<div id="pie">
+			<div id="centro-pie">
+				<p1>
+					<br><br>
+					<h3>Diego Sanabria</h3>
+				</p1>
+			</div>
+		</div>
+	</body>
+	</html>

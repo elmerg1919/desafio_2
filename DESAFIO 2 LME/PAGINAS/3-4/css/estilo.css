@@ -1,0 +1,43 @@
+.first{
+	background: #F4D03F;
+	color: black;
+	font-size: 3em;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+@media (max-width: 576px) {
+	.first:after{
+		content: 'Extra pequeño';
+	}
+}
+
+@media (min-width: 576px) {
+	.first:after{
+		content: 'Pequeño';
+	}
+}
+
+
+@media (min-width: 768px) {
+	.first:after{
+		content: 'Medio';
+	}
+}
+
+@media (min-width: 992px) {
+	.first:after{
+		content: 'Grande';
+	}
+}
+@media (min-width: 1200px) {
+	.first:after{
+		content: 'Extra grande';
+	}
+
+h1{
+	text-align: center;
+}

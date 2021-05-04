@@ -1,0 +1,9 @@
+/*ESTILOS CSS PARA PARTE 6 MANEJO DE FILAS Y COLUMNA S*/
+.col-lg-2{
+    background-color: gold;
+    border: 1px solid gray;
+}
+
+.col-md-2{
+    background-color: burlywood;
+}
